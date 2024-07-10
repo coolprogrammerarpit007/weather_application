@@ -69,3 +69,32 @@ body{
 .underline-light{
     border-bottom: 2px solid #fff;
 }
+
+
+/* ************************************************* */
+/* ************************************************* */
+
+/* End of Header Top Section */
+.header-search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.search-form input{ 
+    padding: 1rem;
+    border: 0.2rem solid gray;
+    border-radius: 1rem;
+}
+
+#search-btn{
+    background-color: salmon;
+    border: none;
+}
