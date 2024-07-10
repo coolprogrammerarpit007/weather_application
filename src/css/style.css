@@ -12,6 +12,8 @@ body{
     width: 100%;
     height: 100vh;
     background: #000;
+    font-family: "Playwrite HR Lijeva", cursive;
+    color: #fff;
 }
 
 
@@ -19,3 +21,51 @@ body{
 /* *********************************************************** */
 
 /* End of CSS Boiler Plate */
+
+/* ******************************************************* */
+/* Styling the Header of the Application */
+
+
+.header{
+    padding: 1rem;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-part{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.left-part p{
+    font-size: 2rem;
+}
+.right-part{
+    border-radius: 1rem;
+}
+.middle-part h3{
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+/* *************************************** */
+/* *************************************** */
+
+/* JavaScript Classes */
+.light-bg-btn{
+    background-color: #fff;
+}
+.dark-bg-btn{
+    background-color: grey;
+}
+.underline-dark{
+    border-bottom: 2px solid gray;
+}
+.underline-light{
+    border-bottom: 2px solid #fff;
+}
