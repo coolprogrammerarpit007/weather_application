@@ -98,3 +98,23 @@ body{
     background-color: salmon;
     border: none;
 }
+
+
+/* ************************************************* */
+/* ************************************************* */
+
+/* End of the header section */
+
+.weather-section{
+    padding: 10rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.city-weather-forecast{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
